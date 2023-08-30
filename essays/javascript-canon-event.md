@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Learning Javascript: A Canon Event"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2023-08-29
 published: true
 ---
 
