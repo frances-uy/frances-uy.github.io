@@ -5,8 +5,6 @@ title: "The difficult things will always be difficult"
 # All dates must be YYYY-MM-DD format!
 date: 2016-02-06
 published: true
-labels:
-  - Engineering
 ---
 
 Whether it be creating your first portfolio on Github or publishing your first project, there are quite a number of “canon events” that every Computer Science student goes through at least some point in their college journey. 
