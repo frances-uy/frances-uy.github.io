@@ -82,5 +82,3 @@ _Here is a snippet of my code, one of the functions I implemented:_
 }
 
 ```
-
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
