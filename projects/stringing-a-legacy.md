@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/Screenshot 2023-08-31 at 9.58.48 PM.png
 title: "Award-Winning Documentary: “Stringing A Legacy”"
 date: 2021
 published: true
@@ -10,7 +10,7 @@ labels:
 summary: "Short-form video discussing the cultural significance of leis in Hawaii."
 ---
 
-
+![Thumbnail](/img/Screenshot 2023-08-31 at 10.55.10 PM.png)
 
 # Finding Our Prompt
 I got together with three of my closest friends to create a documentary to submit for the National Student Television Network Competition in 2020. Having grown up in Hawai‘i, our goal was to showcase a significant, yet lesser known topic about our home. Leis mean so much more than something you receive at graduations or something you buy at the airport lei stand. “Stringing a Legacy” tells the story of what leis truly are from the perspectives of a usual lei maker, a teacher that teaches lei making, and its cultural significance. 
