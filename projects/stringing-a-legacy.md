@@ -21,4 +21,4 @@ This project was completed on a tight deadline of a little under two months, due
 # What I Learned
 This experience left me in awe of what I could accomplish in a time crunch, having to effectively work in a group and collaborate with others in our community. “Stringing a Legacy” is a part of the gateway for my media today. These same skills are essential to software engineering as well. The most important thing is keeping your ultimate purpose and the audience in mind.
 
-### [Here is a Youtube link to watch "Stringing A Legacy". Enjoy!](https://youtu.be/On-WARAElK0?si=a00w4NjOK5uzzYLO)
+__[Here is a Youtube link to watch "Stringing A Legacy". Enjoy!](https://youtu.be/On-WARAElK0?si=a00w4NjOK5uzzYLO)__
