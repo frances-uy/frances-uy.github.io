@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/ai4all_logo.png
 title: "AI4ALL Final Project"
 date: 2022
 published: true
