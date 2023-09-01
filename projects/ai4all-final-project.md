@@ -12,9 +12,9 @@ labels:
 summary: "My team showcased social media companies’ marketing and algorithms targets us by analyzing a data set regarding political social media ads viewed."
 ---
 
-<div class="text-center p-4">
-  <img width="400px" src="img/socialmedia-ai.jpg" class="img-thumbnail" >
-</div>
+<img src="img/socialmedia-ai.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 This is a final project completed while I was a part of a computer science program at UH Manoa, AI4All— A learning initiative for Artificial Intelligence and Data Science. Ignited by recent news about increased data tracking on social media platforms, we wanted to understand how social media companies’ marketing and algorithms targets us and the hidden ethical implications behind them. Specifically, we wanted to understand how what we view might affect what political ads are presented to us.
 
