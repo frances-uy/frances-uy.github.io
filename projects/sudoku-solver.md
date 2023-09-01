@@ -35,10 +35,6 @@ _Here is a snippet of my code, one of the functions I implemented:_
       int row = -1;
       int col = -1;
 
-      //nested for-loop to find the next empty cell
-      //if an empty cell is found, then the row and column indexes of that cell
-      //need to be assigned to row and col respectively
-      //this tells us the location of the cell that needs to be filled
       for (int i = 0; i < sudoku.length; i++) {
           for (int j = 0; j < sudoku.length; j++) {
               int cell = sudoku[i][j];
@@ -58,12 +54,6 @@ _Here is a snippet of my code, one of the functions I implemented:_
     	// solution found
           return true; 
       }
-
-      // try each number from 1 to 9 in the empty cell by assigning num to sudoku[row][col]
-      // check to see if the resulting grid is still valid using the checkSudoku() method
-      // if the grid is valid, the code proceeds to check if the rest of the grid
-      // can be filled recursively by calling the fillSudoku() method on the updated grid
-      // otherwise, the loop continues to try the next number.
       for (int num = 1; num <= 9; num++) {
           sudoku[row][col] = num;
           if (checkSudoku(sudoku, allFilled)) {
