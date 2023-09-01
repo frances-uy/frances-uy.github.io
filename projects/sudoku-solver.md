@@ -15,7 +15,7 @@ summary: "Sudoku Solver using a Backtracking algorithm."
 Sudoku, a popular combinatorial-number puzzle involving logic and reasoning, can be tedious and frustrating if played by a human. Especially while starting it out. The goal of Sudoku is to fill a 9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 subgrids that compose the grid contain all of the digits from 1 to 9.
 
 ## How Does It Work?
-This Sudoku Solver uses backtracking, a brute-force algorithm which tries different numbers. If it fails, then it backtracks and tries another number. If none of the numbers work, then no solution will be found. It's simple and effective. Test cases were given, and I had the responsibility of implementing a function that actually filled in the numbers.
+This Sudoku Solver uses backtracking, a brute-force algorithm which tries different numbers. If it fails, then it backtracks and tries another number. If none of the numbers work, then no solution will be found. It's simple and effective. Test cases were provided by the instructor, and I had the responsibility of implementing a function that actually filled in the numbers.
 
 This individual assignment from ICS 211 reinforced my knowledge of recursion, a significant topic in Computer Science. This was done in Java and used other data structures such as arrays.
 
