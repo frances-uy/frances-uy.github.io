@@ -19,7 +19,8 @@ This Sudoku Solver uses backtracking, a brute-force algorithm which tries differ
 
 This individual assignment from ICS 211 reinforced my knowledge of recursion, a significant topic in Computer Science. This was done in Java and used other data structures such as arrays.
 
-_Here is a snippet of my code, one of the functions I implemented:_
+Here is a [Github repository](https://github.com/frances-uy/recursive-sudoku-solver) containing all of the code for this project.
+_This is a snippet of my code, one of the functions I implemented:_
 ```
  /*
    * find an assignment of values to sudoku cells that makes the sudoku valid
