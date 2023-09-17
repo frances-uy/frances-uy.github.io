@@ -13,7 +13,7 @@ Whether it be creating your first portfolio on Github or publishing your first p
 
 In case you haven’t heard of or seen the “canon event” trend on Tiktok this past summer, the term originates from the “Spider-Man: Across the Spider-Verse” movie. The film focuses on these “canon” events, which are unavoidable, unchangeable moments that built the Spider-Verse together in big or small ways. In real life, “rite of passage” experiences include Quinceaneras or college freshman picking a pre-med track while still being unsure of their major.
 
-## Canon Events in ICS 314 | Software Engineering Class
+## Canon Events in ICS 314 | Software Engineering Class at UH Mānoa
 
 Perhaps one of the biggest canon events for any student that takes ICS 314 (Software Engineering) at UH Mānoa, are the Workout of the Days, a.k.a "WODs". For each second class of week during the first 10 weeks of the semester, a WOD is given to help assess how well we know the content for the week. They are essentially timed tests graded under an all or nothing format. These WODS build a productive rhythm of this class by being pressured to really know the material for them and to really make use of practice WODS, through homework or administered by the teaching assistants.
 
