@@ -14,7 +14,7 @@ Our goal as software engineers should not only be to develop programs that work,
 
 Website layouts are the main type of UI that I have been experimenting with lately in our Software Engineering class. We have been able to create simple websites with raw, basic HTML and CSS, such as this Browser History website. Here is the result:
 
-<img src="img/browser-history-website.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/>
+<img src="/img/browser-history-website.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/>
 
 The code was very simple. I displayed the information through header, paragraph, and image tags. Here is a snippet of a section of it:
 
@@ -53,7 +53,7 @@ The biggest obstacle for me so far across my projects was horizontally and verti
         right-margin: '50px';
       }
 
-<img src="img/centering-html.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/>
+<img src="/img/centering-html.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/>
 
 That is a lot of lines to customize. With Bootstrap, I was able to use the classes ‘text-center’ and ‘justify-content-center’ to do the same centering task in a fraction of the steps, like this for example.
 
@@ -64,14 +64,14 @@ That is a lot of lines to customize. With Bootstrap, I was able to use the class
          <h2 class="textcenter">on our website menu.</h2>
          </div>
 
-<img src="img/centering-bootstrap.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/>         
+<img src="/img/centering-bootstrap.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/>         
 One neat thing that Bootstrap also provides is a library of 1300+ high-quality icons. For example if you want to include social media icons to a navigation bar, all you need to do is copy a link that looks like this and paste it where needed (usually I place them inside a <ul></ul> element).
 
     <i class="bi bi-instagram p-3"></i>
     <i class="bi bi-facebook p-3"></i>
     <i class="bi bi-twitter p-3"></i>
 
-<img src="img/bootstrap-icon-navbar.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/> 
+<img src="/img/bootstrap-icon-navbar.png" alt="Browser History Website" style="box-shadow: 10px 10px 10px gray; width:700px;"/> 
 
 Although importing the Bootstrap Icon Library is another step to have to do, it is significantly more efficient than doing it with raw HTML and CSS. Looking at the latter route, not only would you have to find a high-quality image from the internet yourself, but you would need to center it and pad it manually. 
 
