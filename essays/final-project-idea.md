@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Final Project Idea"
+title: "ICS 314 Final Project Idea"
 date: 2023-10-30
 labels:
   - Software Engineering
   - Meteor
 published: true
 ---
-## ICS 314 Final Project Idea - Kye Steele & Frances Uy
+_By: Kye Steele & Frances Uy_
 
 
 ## Overview
