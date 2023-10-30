@@ -8,6 +8,9 @@ labels:
   - Meteor
 published: true
 ---
+## ICS 314 Final Project Idea - Kye Steele & Frances Uy
+
+
 ## Overview
 In today's fast-paced world, where information is abundant, and time is of the essence, the need for an efficient and user-friendly approach to accessing information cannot be overstated. This application should leverage AI to enhance the user experience by providing a flexible and intuitive conversational search function. This technology aims to identify and retrieve relevant Ask Us articles and information while allowing users to engage in "back and forth" conversations. The application is intended for the University of Hawai‘i (UH) community, which consists of students, faculty, staff, and researchers, with a particular focus on welcoming new members to the UH community.
 
