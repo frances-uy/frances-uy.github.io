@@ -19,6 +19,7 @@ While taking ICS 314 (Software Engineering) at UH Mānoa, the use of generative 
 <div align="center">
  <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/chatgpt.jpg?raw=true" style="box-shadow: 10px 10px 10px gray; width:500px;"/>
 </div>
+</br>
 
 # II. Personal Experience With AI in ICS 314
 
