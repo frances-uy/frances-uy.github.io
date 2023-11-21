@@ -16,23 +16,25 @@ ChatGPT is my go-to generative AI tool and the only one I have used. Personally,
 
 While taking ICS 314 (Software Engineering) at UH Mānoa, the use of generative AI seems to stand in a middle ground. While we are encouraged to watch solutions to coding exercises and try to do them separately on our own, we are not necessarily penalized for generative AI either. When the time came to submit these exercises, we were required to declare whether we used the help of generative AI or not. Although it ultimately had no bearing on our grade, it was easy to say you did not. In my opinion, coming to terms that the academic landscape is using ChatGPT is crucial. We have to face a new reality that AI is here to stay in education, and we must find the best ways to use it.
 
-<img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/chatgpt.jpg?raw=true" style="box-shadow: 10px 10px 10px gray; width:500px;"/>
+<div align="center">
+ <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/chatgpt.jpg?raw=true" style="box-shadow: 10px 10px 10px gray; width:500px;"/>
+</div>
 
 # II. Personal Experience With AI in ICS 314
 
-__1. Experience WODS__
+### 1. Experience WODS
 I did not use ChatGPT for the Experience WODs, which were coding exercises completed at home. Video solutions are provided and we actually were encouraged to repeat these experiences multiple times to make sure we fully understood the concept. Otherwise it would have avoided the purpose of them in the first place.
 
-__2. In-class Practive WODs__
+### 2. In-class Practive WODs
 Similar to the Experience WODs, I was not motivated to use ChatGPT for this. I embraced being stuck since we were able to work with group members and spend the entire class period. There was no penalty on our grade for not being able to find the solution, because it was just practice.
 
-__3. In-class WODS__
+### 3. In-class WODS
 I did not use ChatGPT for the in-class WODs as I found that the weekly practice sessions held by the TAs and the online documentations were helpful. We also were not penalized for using the internet, so I had past projects as examples when I got stuck. The solutions from practice exercises for this class were more helpful than ChatGPT responses.
 
-__4. Essays__
+### 4. Essays
 I never attempted to use AI in writing my essays or for ideas, in caution of plagiarism. Writing my essays in a typing software like Microsoft Word or Google Docs catches a good amount of errors before I post them to GitHub.
 
-__5. Final Project__
+### 5. Final Project
 Since we were participating in the Hawai‘i Annual Coding Challenge this semester (HACC), we decided to create an optimized version of the [UH Ask Us Site](https://www.hawaii.edu/its/) and carry it on as our final project. I gave an example later in this essay of how I used ChatGPT. Since we used other technologies such as Pinecone and OpenAI that were not covered in the ICS 314 modules, we dedicated a lot of our time researching. This time constraint led us to try troubleshooting using ChatGPT, by simply copying and pasting the error in. Without it, we would not have progressed as far in our final project.
 
 For example, I wanted to a theme to our project site but the online documentation was unclear. I gave ChatGPT:
@@ -62,16 +64,16 @@ Double-check the theme's documentation for installation and configuration instru
 If you're developing locally, try running bundle exec jekyll serve after installation to see if the theme is applied correctly.
 ```
 
-__6. Learning a concept / tutorial__
+### 6. Learning a concept / tutorial
 I thought that the videos provided within the modules for ICS 314 were detailed enough for what we needed to know. I would copy and paste lines of code as they were and prompt it to explain it. It is helpful, but I try to avoid it. Practicing without looking at the solution helps the concept stick better for me.
 
-__7. Answering a question in class or in Discord__
+### 7. Answering a question in class or in Discord
 I don't use AI here, since I feel tools like ChatGPT should be used under your own discrestion. Important details may not always be accurate. Besides the risk of misinformation, anyone can use ChatGPT anyways. Insights from your personal experience, opinions on topics, etc. cannot be replicated by AI and can sometimes be more insightful and maximize the limited face-to-face time we have.
 
-__8. Asking or answering a smart-question__
+### 8. Asking or answering a smart-question
 Similar to above, I have never asked or answered a smart question before with AI. I thought that smart-questions are already formulated to be answered by others, and everyone in the Discord channel is quick and helpful. I liked that the answers questions we ask in a Discord channel can be seen by everyone, overall improving the class experience.
 
-__9. Coding Example__
+### 9. Coding Example
 I have asked ChatGPT to give an example of the arrow function in JavaScript. It gave this simple example and a sentence or two on how it worked:
 
 ```
@@ -86,16 +88,16 @@ const addArrow = (a, b) => a + b;
 
 I rarely use AI for coding examples, because the online documentation provides similar ones. 
 
-__10. Explaining Code__
+### 10. Explaining Code
 As mentioned earlier, AI tools like ChatGPT is great for explaining code. ChatGPT can take multiple lines of code at once and analyze each one. This class taught us a lot through the project templates so being able to read code is just as important as knowing how to write it. I did this for a lot of the "boilerplate" code that we just had to accept and know.
 
-__11. Writing Code__
+### 11. Writing Code
 I have used ChatGPT especially for code that dealt with the user-interface of our final project, which will be talked about in the "Practical Applications" section.
 
-__12. Documenting Code__
+### 12. Documenting Code
 I have tried to use AI for documenting code, as I feel we have enough hands-on work with our projects to create our own documentation. 
 
-__13. Quality Assurance__
+### 13. Quality Assurance
 Sometimes the suggestions for ESLint erros in the IntelliJ IDE take some time to pop up or incomprehensible.Around the first time we were getting familiar with the meteor-react-template, I had a particular error that I spent days trying to figure out, so I prompted ChatGPT with my problem in the terminal:
 
 ```
@@ -116,7 +118,7 @@ Process finished with exit code -1
 
 It gave me helpful starting points to look at such as to check the ESLint Version, Update Dependencies, Check Configuration Files, Check the Node.js Version, to reinstall ESLint, and even seek help if all else fails. It took a lot of time and trial for each suggestion it had. Many attempts later this still didn’t help, so I asked in the #smart_questions channel in the ICS 314 Discord, and within minutes someone who experienced the same thing responded and I had to configure the Node.js version in IntelliJ specifically, which was not mentioned at all by ChatGPT. 
 
-__14. Other uses in ICS 314 not listed__
+### 14. Other uses in ICS 314 not listed
 I have no other uses other than the ones listed, mostly since I see currently see ChatGPT as a coding companion. While some of its paragraph-like explanations are questionable, code given can be tested by actually running it yourself. 
 
 
