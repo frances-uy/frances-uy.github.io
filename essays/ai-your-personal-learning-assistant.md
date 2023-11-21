@@ -130,17 +130,15 @@ I believe that ChatGPT was a great tool to get an entry way into learning basic,
 
 For the Hawaii Annual Coding Challenge (HACC), a local group coding competition, we challenged ourselves to use OpenAI as a foundation for our application. It uses keys for security and while trying to understand this I asked it:
  
-`
-How to set the organization key in the terminal?
-`
+`How to set the organization key in the terminal?`
 
 
 _This was its response:_ 
 
 
-`
+```
 "As of my last knowledge update in January 2022, OpenAI did not provide a specific "organization key" separate from the API key for individual users. Instead, API keys were used to authenticate API requests, and any organization-specific settings or permissions were typically managed through the OpenAI dashboard."
-`
+```
 
 
 Which is understandable because there was an article that came out a week ago from the time of writing this essay, that actually discusses setting the organization key in the terminal. As warned on its user-interface, the information that ChatGPT provides can often be misleading. APIs are always evolving. In terms of software engineering practices, proper research on the documentation of libraries and frameworks you are using is important. 
