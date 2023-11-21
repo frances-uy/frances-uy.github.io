@@ -37,7 +37,7 @@ I never attempted to use AI in writing my essays or for ideas, in caution of pla
 ### 5. Final Project
 Since we were participating in the Hawai‘i Annual Coding Challenge this semester (HACC), we decided to create an optimized version of the [UH Ask Us Site](https://www.hawaii.edu/its/) and carry it on as our final project. I gave an example later in this essay of how I used ChatGPT. Since we used other technologies such as Pinecone and OpenAI that were not covered in the ICS 314 modules, we dedicated a lot of our time researching. This time constraint led us to try troubleshooting using ChatGPT, by simply copying and pasting the error in. Without it, we would not have progressed as far in our final project.
 
-For example, I wanted to a theme to our project site but the online documentation was unclear. I gave ChatGPT:
+For example, I wanted to a theme to our project site but the online documentation was unclear. I gave ChatGPT this:
 
 `build
  Logging at level: debug Configuration file: /github/workspace/./_config.yml Theme: jekyll-time-machine github-pages 228 | Error: The jekyll-time-machine theme could not be found. `
