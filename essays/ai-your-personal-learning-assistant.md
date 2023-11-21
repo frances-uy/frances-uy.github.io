@@ -33,7 +33,92 @@ __4. Essays__
 I never attempted to use AI in writing my essays or for ideas, in caution of plagiarism. Writing my essays in a typing software like Microsoft Word or Google Docs catches a good amount of errors before I post them to GitHub.
 
 __5. Final Project__
-There is no module in the class for how to implement the final project, however we were taught the basics well. I believe that 
+Since we were participating in the Hawai‘i Annual Coding Challenge this semester (HACC), we decided to create an optimized version of the [UH Ask Us Site](https://www.hawaii.edu/its/) and carry it on as our final project. I gave an example later in this essay of how I used ChatGPT. Since we used other technologies such as Pinecone and OpenAI that were not covered in the ICS 314 modules, we dedicated a lot of our time researching. This time constraint led us to try troubleshooting using ChatGPT, by simply copying and pasting the error in. Without it, we would not have progressed as far in our final project.
+
+For example, I wanted to a theme to our project site but the online documentation was unclear. I gave ChatGPT:
+
+`build
+ Logging at level: debug Configuration file: /github/workspace/./_config.yml Theme: jekyll-time-machine github-pages 228 | Error: The jekyll-time-machine theme could not be found. `
+
+and it responded:
+
+
+```
+It looks like you're trying to build a Jekyll site, but you're encountering an error because the jekyll-time-machine theme could not be found. This could be due to several reasons:
+
+Theme is not installed: Make sure that the theme you are trying to use is installed. If it's a gem-based theme, you can add it to your Gemfile and run bundle install.
+
+Typo in the theme name: Check for any typos in the theme name in your _config.yml file. It should match the theme's name exactly as it is.
+
+Incorrect configuration: Ensure that the theme is correctly configured in your _config.yml file. The line should be theme: jekyll-time-machine.
+
+Theme is not supported by GitHub Pages: If you're using GitHub Pages, note that it only supports certain themes directly. If jekyll-time-machine is not one of them, you'll need to use a different method, like committing the theme's files directly to your repository.
+
+Here's what you can do:
+
+If the theme is a custom one or not supported by GitHub Pages, consider adding the theme's files directly to your project.
+If it is a gem-based theme, make sure it is included in your Gemfile and run bundle install.
+Double-check the theme's documentation for installation and configuration instructions.
+If you're developing locally, try running bundle exec jekyll serve after installation to see if the theme is applied correctly.
+```
+
+__6. Learning a concept / tutorial__
+I thought that the videos provided within the modules for ICS 314 were detailed enough for what we needed to know. I would copy and paste lines of code as they were and prompt it to explain it. It is helpful, but I try to avoid it. Practicing without looking at the solution helps the concept stick better for me.
+
+__7. Answering a question in class or in Discord__
+I don't use AI here, since I feel tools like ChatGPT should be used under your own discrestion. Important details may not always be accurate. Besides the risk of misinformation, anyone can use ChatGPT anyways. Insights from your personal experience, opinions on topics, etc. cannot be replicated by AI and can sometimes be more insightful and maximize the limited face-to-face time we have.
+
+__8. Asking or answering a smart-question__
+Similar to above, I have never asked or answered a smart question before with AI. I thought that smart-questions are already formulated to be answered by others, and everyone in the Discord channel is quick and helpful. I liked that the answers questions we ask in a Discord channel can be seen by everyone, overall improving the class experience.
+
+__9. Coding Example__
+I have asked ChatGPT to give an example of the arrow function in JavaScript. It gave this simple example and a sentence or two on how it worked:
+
+```
+// Traditional function expression
+const add = function(a, b) {
+    return a + b;
+};
+
+// Arrow function equivalent
+const addArrow = (a, b) => a + b;
+```
+
+I rarely use AI for coding examples, because the online documentation provides similar ones. 
+
+__10. Explaining Code__
+As mentioned earlier, AI tools like ChatGPT is great for explaining code. ChatGPT can take multiple lines of code at once and analyze each one. This class taught us a lot through the project templates so being able to read code is just as important as knowing how to write it. I did this for a lot of the "boilerplate" code that we just had to accept and know.
+
+__11. Writing Code__
+I have used ChatGPT especially for code that dealt with the user-interface of our final project, which will be talked about in the "Practical Applications" section.
+
+__12. Documenting Code__
+I have tried to use AI for documenting code, as I feel we have enough hands-on work with our projects to create our own documentation. 
+
+__13. Quality Assurance__
+Sometimes the suggestions for ESLint erros in the IntelliJ IDE take some time to pop up or incomprehensible.Around the first time we were getting familiar with the meteor-react-template, I had a particular error that I spent days trying to figure out, so I prompted ChatGPT with my problem in the terminal:
+
+```
+what does this mean Initialization error (ESLint). require(...).pathToFileURL is not a function
+TypeError: require(...).pathToFileURL is not a function
+    at Object.<anonymous> (/Users/michelleuy/Desktop/github/islandsnow-meteor/app/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:2395:55)
+    at Module._compile (internal/modules/cjs/loader.js:678:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:689:10)
+    at Module.load (internal/modules/cjs/loader.js:589:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:528:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:520:3)
+    at Module.require (internal/modules/cjs/loader.js:626:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/michelleuy/Desktop/github/islandsnow-meteor/app/node_modules/eslint/lib/cli-engine/cli-engine.js:33:5)
+    at Module._compile (internal/modules/cjs/loader.js:678:30)
+Process finished with exit code -1
+```
+
+It gave me helpful starting points to look at such as to check the ESLint Version, Update Dependencies, Check Configuration Files, Check the Node.js Version, to reinstall ESLint, and even seek help if all else fails. It took a lot of time and trial for each suggestion it had. Many attempts later this still didn’t help, so I asked in the #smart_questions channel in the ICS 314 Discord, and within minutes someone who experienced the same thing responded and I had to configure the Node.js version in IntelliJ specifically, which was not mentioned at all by ChatGPT. 
+
+__14. Other uses in ICS 314 not listed__
+I have no other uses other than the ones listed, mostly since I see currently see ChatGPT as a coding companion. While some of its paragraph-like explanations are questionable, code given can be tested by actually running it yourself. 
+
 
 # III. Impact on Learning and Comprehension
 
@@ -43,16 +128,22 @@ I believe that ChatGPT was a great tool to get an entry way into learning basic,
 
 For the Hawaii Annual Coding Challenge (HACC), a local group coding competition, we challenged ourselves to use OpenAI as a foundation for our application. It uses keys for security and while trying to understand this I asked it:
  
-‘’’
-How to set the organization key in the terminal
-“‘’
-This was the response: 
-‘’’
-As of my last knowledge update in January 2022, OpenAI did not provide a specific "organization key" separate from the API key for individual users. Instead, API keys were used to authenticate API requests, and any organization-specific settings or permissions were typically managed through the OpenAI dashboard.
-‘’’
+`
+How to set the organization key in the terminal?
+`
+
+
+_This was its response:_ 
+
+
+`
+"As of my last knowledge update in January 2022, OpenAI did not provide a specific "organization key" separate from the API key for individual users. Instead, API keys were used to authenticate API requests, and any organization-specific settings or permissions were typically managed through the OpenAI dashboard."
+`
+
+
 Which is understandable because there was an article that came out a week ago from the time of writing this essay, that actually discusses setting the organization key in the terminal. As warned on its user-interface, the information that ChatGPT provides can often be misleading. APIs are always evolving. In terms of software engineering practices, proper research on the documentation of libraries and frameworks you are using is important. 
 
-I asked Chat GPT to ‘’’ make a light mode and dark mode ‘’’ in which it suggested I use CSS classes and to !important to override certain rules. I did not find this helpful because it did not promote readability if one of my group members were to edit the code. While it certainly worked, I found myself fine tuning whatever it gave me to make sense as if I were producing it myself.  
+I asked Chat GPT to `make a light mode and dark mode` in which it suggested I use CSS classes and to !important to override certain rules. I did not find this helpful because it did not promote readability if one of my group members were to edit the code. While it certainly worked, I found myself fine tuning whatever it gave me to make sense as if I were producing it myself.  
 
 # V. Challenges and Opportunities
 
@@ -72,8 +163,10 @@ Another major factor to learning in Software Engineering is feedback and critiqu
 
 The technology realm is evolving as you are reading this essay. The free, most accessible version of ChatGPT is ChatGPT-3.5. You can ask an unlimited amount of questions, but the model is only trained on data up until 2022. The efficiency of ChatGPT in a Software Engineering class could be contingent upon the technology stack that will be taught. For example, information about updates in Meteor within a few months ago won’t be available to ChatGPT, so it won’t be able to answer your specific question. 
 
-# VIII. CONCLUSION
+# VIII. Conclusion
 Generative AI can’t do our assignments in the Software Engineering Course just yet. Tools like ChatGPT can create a starting point for us and answer our general questions, but it is ultimately up to us, the human programmers, on how we use it.
+
+In future courses and fields (not just Computer Science) I would advise to not heavily rely on ChatGPT and go into assignments blindly. If we were to let it take control, we would not learn anything. 
 
 
 
