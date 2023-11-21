@@ -17,7 +17,7 @@ ChatGPT is my go-to generative AI tool and the only one I have used. Personally,
 While taking ICS 314 (Software Engineering) at UH Mānoa, the use of generative AI seems to stand in a middle ground. While we are encouraged to watch solutions to coding exercises and try to do them separately on our own, we are not necessarily penalized for generative AI either. When the time came to submit these exercises, we were required to declare whether we used the help of generative AI or not. Although it ultimately had no bearing on our grade, it was easy to say you did not. In my opinion, coming to terms that the academic landscape is using ChatGPT is crucial. We have to face a new reality that AI is here to stay in education, and we must find the best ways to use it.
 
 <div align="center">
- <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/chatgpt.jpg?raw=true" style="box-shadow: 10px 10px 10px gray; width:500px;"/>
+ <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/chatgpt.jpg?raw=true" style="box-shadow:4px 4px 4px gray; width:500px;"/>
 </div>
 
 
