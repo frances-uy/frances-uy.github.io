@@ -19,18 +19,20 @@ Design patterns, in essence, are not just solutions to common problems. They are
 In the Software Engineering class (ICS 314) that I am currently taking, the majority of the code I wrote, including our [final project](https://askusits.site/), was based on this [meteor-react-template](https://ics-software-engineering.github.io/meteor-application-template-react/), created by one of the instructors. It gave us a head start on Meteor development, deployment, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
 
 We are also introduced to these four most popular design patterns, akin to the various themes and difficulty of LEGO sets:
-<ul>
-    <li>Creational Patterns (The Foundational Blocks)    <ul>
-        <li>These are the base plates and foundation bricks in a LEGO set. They deal with object creation in a manner appropriate to the situation. The <strong>Singleton Pattern</strong> is responsible for managing global configurations and states.</li>
-      </ul>    
-    <li>Structural Patterns (Building the Framework)    <ul>
-        <li>This is the interconnectedness of the blocks, ensuring that code is organized into logical, interconnected blocks. <strong>MVC (Model-View-Controller) Pattern</strong> ensures that the application is maintainable and scalable.</li>
-      </ul>
-    <li>Behavioral Patterns (Bringing the Model to Life):
-    <ul>
-        <li>The <strong>Observer Pattern</strong> is used for managing reactive updates, akin to adding dynamic, moving parts to a LEGO creation. This pattern allows various components of the application to communicate efficiently, reflecting changes across the system seamlessly.</li>
-      </ul>
+
+<div><ul>
+<li>Creational Patterns (The Foundational Blocks)    <ul>
+<li>These are the base plates and foundation bricks in a LEGO set. They deal with object creation in a manner appropriate to the situation. The <strong>Singleton Pattern</strong> is responsible for managing global configurations and states.</li>
+</ul>    
+<li>Structural Patterns (Building the Framework)    <ul>
+<li>This is the interconnectedness of the blocks, ensuring that code is organized into logical, interconnected blocks. <strong>MVC (Model-View-Controller) Pattern</strong> ensures that the application is maintainable and scalable.</li>
 </ul>
+<li>Behavioral Patterns (Bringing the Model to Life):
+<ul>
+<li>The <strong>Observer Pattern</strong> is used for managing reactive updates, akin to adding dynamic, moving parts to a LEGO creation. This pattern allows various components of the application to communicate efficiently, reflecting changes across
+the system seamlessly.</li>
+</ul>
+</ul></div>
 
 
 
