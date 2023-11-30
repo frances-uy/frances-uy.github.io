@@ -15,7 +15,7 @@ Just like a child’s fascination with a brand new LEGO set, at a high-level, a 
 Design patterns, in essence, are not just solutions to common problems. They are methodologies, honed in by experts in the Software Engineering field that have years of experience and knowledge. Design patterns are intended for other developers to be able to encounter a problem of that kind, and have a template to solve it. These design patterns provide a standardized approach to solving common problems in software design, much like how LEGO bricks are used to construct various models.
 
 <div align="center">
- <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/lego.jpeg?raw=true" width:300px;"/>
+ <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/lego.jpeg?raw=true" width:300px"/>
 </div>
 
 ## Following the Instructions: Learning the Basics
