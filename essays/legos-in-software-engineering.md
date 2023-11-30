@@ -20,19 +20,15 @@ In the Software Engineering class (ICS 314) that I am currently taking, the majo
 
 We are also introduced to these four most popular design patterns, akin to the various themes and difficulty of LEGO sets:
 
-<div><ul>
-<li>Creational Patterns (The Foundational Blocks)    <ul>
-<li>These are the base plates and foundation bricks in a LEGO set. They deal with object creation in a manner appropriate to the situation. The <strong>Singleton Pattern</strong> is responsible for managing global configurations and states.</li>
-</ul>    
-<li>Structural Patterns (Building the Framework)    <ul>
-<li>This is the interconnectedness of the blocks, ensuring that code is organized into logical, interconnected blocks. <strong>MVC (Model-View-Controller) Pattern</strong> ensures that the application is maintainable and scalable.</li>
-</ul>
-<li>Behavioral Patterns (Bringing the Model to Life):
-<ul>
-<li>The <strong>Observer Pattern</strong> is used for managing reactive updates, akin to adding dynamic, moving parts to a LEGO creation. This pattern allows various components of the application to communicate efficiently, reflecting changes across
-the system seamlessly.</li>
-</ul>
-</ul></div>
+- **Creational Patterns (The Foundational Blocks)**
+    - These are the base plates and foundation bricks in a LEGO set. They deal with object creation in a manner appropriate to the situation. The **Singleton Pattern** is responsible for managing global configurations and states.
+
+- **Structural Patterns (Building the Framework)**
+    - This is the interconnectedness of the blocks, ensuring that code is organized into logical, interconnected blocks. **MVC (Model-View-Controller) Pattern** ensures that the application is maintainable and scalable.
+
+- **Behavioral Patterns (Bringing the Model to Life)**
+    - The **Observer Pattern** is used for managing reactive updates, akin to adding dynamic, moving parts to a LEGO creation. This pattern allows various components of the application to communicate efficiently, reflecting changes across the system seamlessly.
+
 
 
 
