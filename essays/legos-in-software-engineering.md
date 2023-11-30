@@ -32,6 +32,12 @@ We are also introduced to these four most popular design patterns, akin to the v
       </ul>
 </ul>
 
+
+
+
+
+
+
 ## The Timeless Nature of LEGOs
 
 LEGOs are reused and valued for their ability to be reconfigured into new models. The design patterns that were utilized in the template were the Creation and Structural Patterns. This way the application was separated into three interconnected components. Just like when you first open a LEGO set, the bricks are separated into smaller 3-5 plastic bags so it is easier to follow the instruction manual.
@@ -40,9 +46,9 @@ The creation of our ArticlesCollection in our final project was one example of a
 
 Anyone can use a statement like this to make their own collection. Originally in the template this was used to make a StuffsCollection, but in our final project we were dealing with University of Hawaii’s Information Technology (IT) articles.
 
-```
+``
 export const Articles = new ArticlesCollection();
-```
+``
 
 ## Build On!
 
