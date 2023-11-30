@@ -14,6 +14,10 @@ Just like a child’s fascination with a brand new LEGO set, at a high-level, a 
 
 Design patterns, in essence, are not just solutions to common problems. They are methodologies, honed in by experts in the Software Engineering field that have years of experience and knowledge. Design patterns are intended for other developers to be able to encounter a problem of that kind, and have a template to solve it. These design patterns provide a standardized approach to solving common problems in software design, much like how LEGO bricks are used to construct various models.
 
+<div align="center">
+ <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/lego.jpeg?raw=true" style="box-shadow:4px 4px 4px gray; width:500px;"/>
+</div>
+
 ## Following the Instructions: Learning the Basics
 
 In the Software Engineering class (ICS 314) that I am currently taking, the majority of the code I wrote, including our [final project](https://askusits.site/), was based on this [meteor-react-template](https://ics-software-engineering.github.io/meteor-application-template-react/), created by one of the instructors. It gave us a head start on Meteor development, deployment, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
@@ -44,10 +48,10 @@ The creation of our ArticlesCollection in our final project was one example of a
 
 Anyone can use a statement like this to make their own collection. Originally in the template this was used to make a StuffsCollection, but in our final project we were dealing with University of Hawaii’s Information Technology (IT) articles.
 
-``
+```
 export const Articles = new ArticlesCollection();
-``
+```
 
 ## Build On!
 
-Unless you’re an extreme LEGO fanatic or Software Engineering guru, there is still a lot to learn in the field. 
+Unless you’re an extreme LEGO fanatic or Software Engineering guru, there is still a lot to learn in the field. Design patterns offer a structured approach to creativity and problem solving. Each piece based on a pattern plays a critical role in both the our tangible and virtual creations.
