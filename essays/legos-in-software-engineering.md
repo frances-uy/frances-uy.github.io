@@ -15,7 +15,7 @@ Just like a child’s fascination with a brand new LEGO set, at a high-level, a 
 Design patterns, in essence, are not just solutions to common problems. They are methodologies, honed in by experts in the Software Engineering field that have years of experience and knowledge. Design patterns are intended for other developers to be able to encounter a problem of that kind, and have a template to solve it. These design patterns provide a standardized approach to solving common problems in software design, much like how LEGO bricks are used to construct various models.
 
 <div align="center">
- <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/lego.jpeg?raw=true" style="box-shadow:4px 4px 4px gray; width:500px;"/>
+ <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/lego.jpeg?raw=true" width:300px;"/>
 </div>
 
 ## Following the Instructions: Learning the Basics
@@ -44,9 +44,9 @@ We are also introduced to these four most popular design patterns, akin to the v
 
 LEGOs are reused and valued for their ability to be reconfigured into new models. The design patterns that were utilized in the template were the Creation and Structural Patterns. This way the application was separated into three interconnected components. Just like when you first open a LEGO set, the bricks are separated into smaller 3-5 plastic bags so it is easier to follow the instruction manual.
 
-The creation of our ArticlesCollection in our final project was one example of a Singleton Pattern instance. There is one instance of which other parts of the system have global access to it. This access to the collection is needed in order to carry out various tasks in the application, such as providing related source links and generating the best possible answer. It is feasible that only one instance of the ArticlesCollection exists throughout the lifetime of the application.
+The creation of our ArticlesCollection in our [final project](https://askusits.site/) was one example of a Singleton Pattern instance. This is a instance of which other parts of the system have global access to it. This access to the collection is needed in order to carry out various tasks in the application, such as providing related source links and generating the best possible answer. It is feasible that only one instance of the ArticlesCollection exists throughout the lifetime of the application.
 
-Anyone can use a statement like this to make their own collection. Originally in the template this was used to make a StuffsCollection, but in our final project we were dealing with University of Hawaii’s Information Technology (IT) articles.
+Anyone can use a statement like this to make their own collection. Originally in the template this was used to make a StuffsCollection, but in our final project we were dealing with University of Hawaii’s Information Technology (IT) articles. These articles are critical as our final project is an AI Chatbot that answered IT related questions.
 
 ```
 export const Articles = new ArticlesCollection();
