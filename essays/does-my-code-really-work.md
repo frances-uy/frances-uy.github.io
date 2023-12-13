@@ -7,9 +7,11 @@ date: 2023-09-20
 published: true
 ---
 
-There’s no better feeling than your code finally running and working after spending hours on hundreds of lines of code. In my past computer science courses, I would have instinctively submitted my files right away. However after completing several more projects, I have realized  working code does not necessarily equate to good code.
+There’s no better feeling than your code finally running and working after spending hours on hundreds of lines of code. In my past computer science courses, I would have instinctively submitted my files right away. However after completing several more projects, it did not take long for me to realize that working code does not necessarily equate to good code.
 
 What separates good code from bad code is __readability__. Code should not only produce expected results, but it must also be fairly easy for a fellow classmate, teacher, or colleague to read. Readability requires writing and presenting code in an easily written and read fashion. Readability can be established by __coding standards__, which are guidelines and best practices that are used to create consistent, high quality code.  
+
+<div class="text-center"><img style="drop-shadow" src="../img/coding-standards-comic.png" alt="comic"></div>
 
 ## Coding Standards for Our Class
 
@@ -21,10 +23,12 @@ ESLint is a downloadable linting utility for JavaScript that raises errors on pa
 
 ## The ESLint Experience for WODs
 
-When properly installed and enabled in IntelliJ, ESLint activates automatically every time a JavaScript file is opened. Setting up ESLint by configuring my Editor settings in IntelliJ was a bit of a hassle at first. It was a series of one-time steps of updating the default code style, defining the JavaScript verison as ECMAScript 6+, and disabling non-ESLint IntelliJ inspections. However as we continue to do more WODs, I’m starting to get used to it and like it. It raises red error warnings if there is a guideline violation, and displays a green checkmark if there are none. Descriptions of the errors detected in the current file and quick-fixes for them are available from the editor and from the Problems tool window. Non-ESLint IntelliJ inspections are disabled
+When properly installed and enabled in IntelliJ, ESLint activates automatically every time a JavaScript file is opened. Setting up ESLint by configuring my Editor settings in IntelliJ was a bit of a hassle at first. It was a series of one-time steps of updating the default code style, defining the JavaScript version as ECMAScript 6+, and disabling non-ESLint IntelliJ inspections. However as we continue to do more WODs, I’m starting to get used to it and like it. It raises red error warnings if there is a guideline violation, and displays a green checkmark if there are none. Descriptions of the errors detected in the current file and quick-fixes for them are available from the editor and from the Problems tool window. Non-ESLint IntelliJ inspections are disabled
 
 Most of my errors so far were minor, such as inconsistent spacing in parentheses, too many spaces at the end of the program, and even double quotes instead of single quotes. However, I noticed it was much easier to debug my functions if I did not receive the expected output, because my code was organized. I saved time during our WODs because I did not have to spend precious minutes looking for very small mistakes (like a missing curly brace) that would prevent the program from running in general. The green checkmark of no errors that ESLint provides is also good personal reassurance for the final check through I do before actually submitting the WOD. Just to make sure that everything looks good format-wise.
 
-Thinking ahead, following the coding standards for this class throughout the semester will make it easier to post neat, informative repositories of code from projects to Github. Reading code is essentially what Github users do for the most part, so it must be readable in order for them to read it or provide feedback. 
+## Coding Standards for the Real World
 
-Not being able to read your own code at all must be addressed. It is common to spend a lot of work on a program, just to look at it either feeling a bit confused or completely overwhelmed. It’s avoidable by taking a moment to pause, go over the documentation for ESLint or coding standards, and utilize them as you code. With practice and patience, coding style should become second nature. It is an advantage to get to focus on the many features of JavaScript without worrying about our formatting. 
+The biggest nightmare in software engineering would be an inability to read your own code or someone else's code. Software engineering has a lot of team-based work, meaning code and behavior will be frequently passed around. It would be a pain to have to completely redo a project just because the current code was not maintainable for other developers through coding standards. When we complete our end of the project, we want to commit _quality, error free code_ to the GitHub repository. It needs to be readable in order to be reproducible, in case you wanted to use it as a future template or make changes on the existing application.
+
+The moral of the story: follow your organization's coding standards. It may take extra time reading through documentation and implementing it. However you could waste more time reading code with no structure whatsoever. With practice and patience, coding style should become second nature. It is an advantage to get to focus on the many features of the coding language and your powerful capabilities, without worrying about our formatting.
