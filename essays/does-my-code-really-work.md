@@ -5,6 +5,10 @@ title: "Does My Code Really Work?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-20
 published: true
+labels:
+    - Coding Standards
+    - ESLint
+    - JavaScript
 ---
 
 There’s no better feeling than your code finally running and working after spending hours on hundreds of lines of code. In my past computer science courses, I would have instinctively submitted my files right away. However after completing several more projects, it did not take long for me to realize that working code does not necessarily equate to good code.
