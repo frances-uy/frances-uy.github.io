@@ -4,7 +4,7 @@ type: essay
 title: "How to Think Like a Software Engineer"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-31
-published: true
+published: false
 ---
 
 ## Practice, Practice, Practice!

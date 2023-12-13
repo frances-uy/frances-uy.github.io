@@ -6,7 +6,7 @@ date: 2023-10-30
 labels:
   - Software Engineering
   - Meteor
-published: true
+published: false
 ---
 _By: Kye Steele & Frances Uy_
 

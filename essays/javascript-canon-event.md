@@ -4,7 +4,7 @@ type: essay
 title: "Learning JavaScript: A Canon Event"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-29
-published: true
+published: false
 ---
 
 Whether it be creating your first portfolio on Github or publishing your first project, there are quite a number of “canon events” that every Computer Science student goes through at least some point in their college journey. 
