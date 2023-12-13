@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/An-example-Sudoku-puzzle.png
 title: "Recursive Sudoku Solver"
-date: 2023
+date: 2022
 published: true
 labels:
   - Java

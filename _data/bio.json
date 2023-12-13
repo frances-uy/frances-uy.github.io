@@ -14,11 +14,12 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
     { "name": "Data Science" },
+    { "name": "Software Engineering" },
     { "name": "Artificial Intelligence" },
     { "name": "Web Design" },
-    { "name": "3D Graphics" }
+    { "name": "Film" },
+    { "name": "Digital Media" }
   ],
   "skills": [
     {
