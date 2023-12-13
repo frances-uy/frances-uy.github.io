@@ -5,6 +5,9 @@ title: "Where Creativity Meets Structure"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-29
 published: true
+labels:
+    - Design Patterns
+    - Software Engineering
 ---
 ## The Building Bricks of Software Engineering
 
@@ -46,12 +49,12 @@ LEGOs are reused and valued for their ability to be reconfigured into new models
 
 The creation of our ArticlesCollection in our [final project](https://askusits.site/) was one example of a Singleton Pattern instance. This is a instance of which other parts of the system have global access to it. This access to the collection is needed in order to carry out various tasks in the application, such as providing related source links and generating the best possible answer. It is feasible that only one instance of the ArticlesCollection exists throughout the lifetime of the application.
 
-Anyone can use a statement like this to make their own collection. Originally in the template this was used to make a StuffsCollection, but in our final project we were dealing with University of Hawaii’s Information Technology (IT) articles. These articles are critical as our final project is an AI Chatbot that answered IT related questions.
+Anyone can use a statement like this to make their own collection. Originally in the template this was used to make a `StuffsCollection`, but in our final project we were dealing with University of Hawaii’s Information Technology (IT) articles. These articles are critical as our final project is an AI Chatbot that answered IT related questions.
 
-```
+````
 export const Articles = new ArticlesCollection();
-```
+````
 
 ## Build On!
 
-Unless you’re an extreme LEGO fanatic or Software Engineering guru, there is still a lot to learn in the field. Design patterns offer a structured approach to creativity and problem solving. Each piece based on a pattern plays a critical role in both the our tangible and virtual creations.
+Unless you’re an extreme LEGO fanatic, there is still a lot to learn in the field. Design patterns offer a structured approach to creativity and problem solving. Each piece based on a pattern plays a critical role in both the our tangible and virtual creations. There really is no "final piece" that can ultimately complete the build in Software Engineering. Seasoned professionals in this field continue to learn, and build on their builds each time.
