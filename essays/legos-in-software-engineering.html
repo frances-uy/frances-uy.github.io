@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Where Creativity Meets Structure | Frances Uy | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/frances-uy.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Frances Uy | Professional Portfolio">
+    <meta property="og:url" content="https://frances-uy.github.io/essays/legos-in-software-engineering.html">
+    <meta property="og:title" content="Where Creativity Meets Structure | Frances Uy | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/frances-uy.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Where Creativity Meets Structure | Frances Uy | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Frances Uy</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Where Creativity Meets Structure</h1>
+  <span class="date">29 Nov 2023</span>
+  <hr>
+  <h2 id="the-building-bricks-of-software-engineering">The Building Bricks of Software Engineering</h2>
+
+<p>Just like a child’s fascination with a brand new LEGO set, at a high-level, a software engineer experiences a similar excitement when piecing together a project using design patterns. Each LEGO brick represents a component in your software. It varies in size, shape, and functionality. Understanding its purpose is crucial in building a complete, functional structure. Design patterns are these fundamental building blocks. Like following the step-by-step instruction manual at the bottom of the box, there is usually a standardized approach to solving common problems in software design patterns.</p>
+
+<p><a href="https://www.lego.com/en-us/aboutus/lego-certified-professionals">LEGO Certified Professionals</a> passionately curate these sets out of thousands of tiny pieces. They envisioned a model for a customer to build in a certain way. They figured out how to transform numerous 3 x 6 blocks into a miniature Eiffel Tower or sports car. There was a process involved in between the placement of the first block and the final model.</p>
+
+<p>Design patterns, in essence, are not just solutions to common problems. They are methodologies, honed in by experts in the Software Engineering field that have years of experience and knowledge. Design patterns are intended for other developers to be able to encounter a problem of that kind, and have a template to solve it. These design patterns provide a standardized approach to solving common problems in software design, much like how LEGO bricks are used to construct various models.</p>
+
+<div align="center">
+ <img src="https://github.com/frances-uy/frances-uy.github.io/blob/main/img/lego.jpeg?raw=true" width="500px" />
+</div>
+
+<h2 id="following-the-instructions-learning-the-basics">Following the Instructions: Learning the Basics</h2>
+
+<p>In the Software Engineering class (ICS 314) that I am currently taking, the majority of the code I wrote, including our <a href="https://askusits.site/">final project</a>, was based on this <a href="https://ics-software-engineering.github.io/meteor-application-template-react/">meteor-react-template</a>, created by one of the instructors. It gave us a head start on Meteor development, deployment, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.</p>
+
+<p>We are also introduced to these four most popular design patterns, akin to the various themes and difficulty of LEGO sets:</p>
+
+<ul>
+  <li><strong>Creational Patterns (The Foundational Blocks)</strong>
+    <ul>
+      <li>These are the base plates and foundation bricks in a LEGO set. They deal with object creation in a manner appropriate to the situation. The <strong>Singleton Pattern</strong> is responsible for managing global configurations and states.</li>
+    </ul>
+  </li>
+  <li><strong>Structural Patterns (Building the Framework)</strong>
+    <ul>
+      <li>This is the interconnectedness of the blocks, ensuring that code is organized into logical, interconnected blocks. <strong>MVC (Model-View-Controller) Pattern</strong> ensures that the application is maintainable and scalable.</li>
+    </ul>
+  </li>
+  <li><strong>Behavioral Patterns (Bringing the Model to Life)</strong>
+    <ul>
+      <li>The <strong>Observer Pattern</strong> is used for managing reactive updates, akin to adding dynamic, moving parts to a LEGO creation. This pattern allows various components of the application to communicate efficiently, reflecting changes across the system seamlessly.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="the-timeless-nature-of-legos">The Timeless Nature of LEGOs</h2>
+
+<p>LEGOs are reused and valued for their ability to be reconfigured into new models. The design patterns that were utilized in the template were the Creation and Structural Patterns. This way the application was separated into three interconnected components. Just like when you first open a LEGO set, the bricks are separated into smaller 3-5 plastic bags so it is easier to follow the instruction manual.</p>
+
+<p>The creation of our ArticlesCollection in our <a href="https://askusits.site/">final project</a> was one example of a Singleton Pattern instance. This is a instance of which other parts of the system have global access to it. This access to the collection is needed in order to carry out various tasks in the application, such as providing related source links and generating the best possible answer. It is feasible that only one instance of the ArticlesCollection exists throughout the lifetime of the application.</p>
+
+<p>Anyone can use a statement like this to make their own collection. Originally in the template this was used to make a <code class="language-plaintext highlighter-rouge">StuffsCollection</code>, but in our final project we were dealing with University of Hawaii’s Information Technology (IT) articles. These articles are critical as our final project is an AI Chatbot that answered IT related questions.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export const Articles = new ArticlesCollection();
+</code></pre></div></div>
+
+<h2 id="build-on">Build On!</h2>
+
+<p>Unless you’re an extreme LEGO fanatic, there is still a lot to learn in the field. Design patterns offer a structured approach to creativity and problem solving. Each piece based on a pattern plays a critical role in both the our tangible and virtual creations. There really is no “final piece” that can ultimately complete the build in Software Engineering. Seasoned professionals in this field continue to learn, and build on their builds each time.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

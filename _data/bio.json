@@ -1,0 +1,110 @@
+{
+  "basics": {
+    "name": "Frances Uy",
+    "label": "Student",
+    "picture": "https://github.com/frances-uy.png",
+    "email": "uyfm@hawaii.edu",
+    "phone": "808-745-8537",
+    "website": "https://frances-uy.github.io",
+    "summary": "I am studying for a B.S. in Computer Science, Data Science Track, in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "frances-uy", "url": "http://github.com/frances-uy" },
+      { "network": "linkedin", "username": "frances-michelle-uy", "url": "https://www.linkedin.com/in/frances-michelle-uy-b6392b239" }
+    ]
+  },
+  "interests": [
+    { "name": "Data Science" },
+    { "name": "Software Engineering" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Web Design" },
+    { "name": "Film" },
+    { "name": "Digital Media" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "R" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Git/GitHub", "Jupyter Notebook" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "PBS Hawai‘i",
+      "position": "Assistant Editor",
+      "website": "https://www.pbshawaii.org/programs/hiki-no/",
+      "startDate": "2021-07-01",
+      "endDate": "Present",
+      "summary": "Co-edit and produce weekly news show segments",
+      "highlights": [
+        "Maintain, update, and oversee weekly Digital Premieres",
+        "Working closely with Executive Producer within tight broadcast deadlines",
+        "Drive, design and edit deliverables for Instagram"
+      ]
+    },
+    {
+      "company": "UH Mānoa KOKUA Program",
+      "position": "Disability Access Services Assistant",
+      "website": "https://www.hawaii.edu/kokua/",
+      "startDate": "2023-01-15",
+      "endDate": "Present",
+      "summary": "Notetaking",
+      "highlights": [
+        "Take complete, accurate, and organized notes for weekly Computer Science courses at UH Mānoa",
+        "Submit notes on a punctual and timely basis"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "AI4ALL",
+      "website": "https://ai-4-all.org/",
+      "position": "Team Member",
+      "startDate": "2022-08-15",
+      "endDate": "2022-12-01",
+      "summary": "Collaborative learning program for Artificial Intelligence",
+      "highlights": [
+        "Developed an intensive research project on the ethical and societal impacts of algorithms in social media platforms based on the decisions of its users"
+      ]
+    },
+    {
+      "organization": "Hawai‘i Undergraduate Initiative Program",
+      "website": "http://www.manoa.hawaii.edu/omsshui/",
+      "position": "Director of External Affairs",
+      "startDate": "2021-06-01",
+      "endDate": "2022-05-01",
+      "summary": "Facilitate Community Service Events",
+      "highlights": [
+        "Cohort of 90 undergraduate students recent Hawai‘i High School graduates",
+        "Honolulu Zoo and Kahala Nui Elderly Care Home"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "B+ Scholarship",
+      "date": "2021-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
