@@ -29,6 +29,21 @@ ESLint is a downloadable linting utility for JavaScript that raises errors on pa
 
 When properly installed and enabled in IntelliJ, ESLint activates automatically every time a JavaScript file is opened. Setting up ESLint by configuring my Editor settings in IntelliJ was a bit of a hassle at first. It was a series of one-time steps of updating the default code style, defining the JavaScript version as ECMAScript 6+, and disabling non-ESLint IntelliJ inspections. However as we continue to do more WODs, I’m starting to get used to it and like it. It raises red error warnings if there is a guideline violation, and displays a green checkmark if there are none. Descriptions of the errors detected in the current file and quick-fixes for them are available from the editor and from the Problems tool window. Non-ESLint IntelliJ inspections are disabled.
 
+<div class="text-center"><img width="1000" src="../img/eslint-error.png"></div>
+
+Entering the command `meteor npm run lint` in the terminal is a guaranteed way to see if you violated ESLint standards without having to shift through all your JavaScript files. Here is an example of the violation above:
+
+```
+(base) michelleuy@MacBook-Pro-28 app % meteor npm run lint
+
+> meteor-application-template-react@ lint /Users/michelleuy/Desktop/github/digits/app
+> eslint --quiet --ext .jsx --ext .js ./imports && eslint --quiet --ext .js ./tests
+
+
+/Users/michelleuy/Desktop/github/digits/app/imports/api/contact/Contacts.js
+  36:1  error  Too many blank lines at the end of file. Max of 0 allowed 
+```
+
 Most of my errors so far were minor, such as inconsistent spacing in parentheses, too many spaces at the end of the program, and even double quotes instead of single quotes. However, I noticed it was much easier to debug my functions if I did not receive the expected output, because my code was organized. I saved time during our WODs because I did not have to spend precious minutes looking for very small mistakes (like a missing curly brace) that would prevent the program from running in general. The green checkmark of no errors that ESLint provides is also good personal reassurance for the final check through I do before actually submitting the WOD. Just to make sure that everything looks good format-wise.
 
 ## Coding Standards for the Real World
